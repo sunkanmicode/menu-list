@@ -1,0 +1,28 @@
+body {
+    font-size: 15pt;
+}
+.container{
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 25px;
+}
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.col h3{
+  padding: 0;
+  margin: 0;
+  
+}
+.col{
+  padding: 10px;
+  max-width: 300px;
+  margin-bottom: 50px;
+}
+img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
